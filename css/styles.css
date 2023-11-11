@@ -59,7 +59,7 @@ nav ul li a:hover {
   height: fit-content;
 }
 
-.container > img{
+.Me{
   border-radius: 25px;
   float: left;
 }
@@ -105,7 +105,7 @@ a {
 }
 
 @media (max-width: 1300px) {
-  .container > img{
+  .Me{
     float: none;
     text-align: center;
   }
