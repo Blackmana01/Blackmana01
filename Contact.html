@@ -9,7 +9,8 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <button class="navButton" type="button" onclick="Menu()">≡</button>
+        <ul id="navigation">
           <li class = "Home"><a href="/Blackmana01"><b>HOME</b></a></li>
           <li><a href="/Blackmana01/Contact"><b>CONTACT</b></a></li>
           <li><a href="/Blackmana01/Music"><b>MUSIC</b></a></li>
@@ -29,4 +30,14 @@
       </div>
     </div>
   </body>
+  <script>
+    function Menu(){
+      x = document.getElementById("navigation");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </html>

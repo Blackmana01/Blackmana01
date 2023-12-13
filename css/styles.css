@@ -37,6 +37,15 @@ nav ul li a:hover {
   background-color: #376e6f;
 }
 
+.navButton{
+  display: none;
+  border: none;
+  text-align: center;
+  background-color: #1C3334;
+  font-size: x-large;
+  color: snow; /* Match the text color of the body */
+}
+
 .container {
   text-align: center;
   margin: auto;
@@ -104,6 +113,9 @@ h1 {
 }
 
 @media (max-width: 500px) {
+  .navButton {
+    display: inline-block;
+  }
   nav ul {
     float: none;
     display: block;
