@@ -16,7 +16,7 @@ nav {
   background-color: #1C3334;
 }
 
-nav ul {
+#navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -116,7 +116,7 @@ h1 {
   .navButton {
     display: inline-block;
   }
-  nav ul {
+  #navigation {
     float: none;
     display: none;
   }
