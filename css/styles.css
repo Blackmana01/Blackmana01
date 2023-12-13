@@ -66,6 +66,12 @@ h1 {
   font-size: 40px;
 }
 
+a {
+  display: block;
+  text-align: center;
+  color: snow;
+}
+
 .Me {
  border-radius: 25px;
  width: 100%;
