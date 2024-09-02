@@ -110,6 +110,15 @@ hr { width:75%; height:1px; background: white }
   max-width: 50%;
   width: fit-content;
   margin: auto;
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+
+.box {
+  background-color: #cccccc;
+  width: fit-content;
+  border-radius: 5px;
+  margin: auto;
 }
 
 .workimg {
