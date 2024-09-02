@@ -51,6 +51,7 @@ nav ul li a:hover {
 
 .container {
   text-align: center;
+  background-color: grey;
   margin: auto;
 }
 
