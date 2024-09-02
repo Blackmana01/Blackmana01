@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="navButton" type="button" onclick="Menu()">≡</button>
+        <ul id="navigation">
+          <li><a href="/Blackmana01"><b>HOME</b></a></li>
+          <li><a href="/Blackmana01/About"><b>ABOUT</b></a></li>
+          <li><a href="/Blackmana01/CV"><b>RESUME</b></a></li>
+          <li><a href="/Blackmana01/Contact"><b>CONTACT</b></a></li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <div class="container">
+      <h2>About Me:</h2>
+      <p class="about">I am a graduate with a 2:1 degree in computer science looking to kick off my career in cyber security and web development.
+        Aside from coding, I like to pitch in on real projects by volunteering for websites.
+        Beyond the digital stuff, I enjoy expressing my creativity through music production, and I'm always up for a good game of football.</p>
+      <br>
+      <br>
+      <h2>Projects:</h2>
+      <br>
+      <div class="proj">
+        <a href="https://github.com/Blackmana01/Project-Manager-for-House-Renovation"><img class="projimg" src="images/PMFHR.png" style="max-width: 300px;"></a>
+        <p>Project Manager for House Renovation</p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>What I'm currently working on:</h2>
+      <br>
+      <div class="volunteer">
+        <h3>Volunteer Website Administrator</h3> 
+        <br>
+        <a href="https://epsomandewelltimes.com/" target=”_blank”><img class="workimg" src="images/EET.png" alt="EET"></a>
+        <a href="https://surreystandswithukraine.org/" target=”_blank”><img class="workimg" src="images/SSWU.png" alt="SSWU"></a>
+        <br>
+        <br>
+        <p>Epsom and Ewell Times & Surrey Stands With Ukraine</p>
+        <br>
+      </div>
+    </div>
+    <div class="container">
+      <br>
+      <h2>Music</h2>
+      <br>
+      <h3>ECHO</h3>
+      <br>
+      <iframe style="max-width: 560px; width: 100%; min-height: 50vh; height: 100%"
+        src="https://www.youtube.com/embed/VGfxAVgdooE?si=v3niFb04XY1mZtTc" frameborder="0" allowfullscreen>
+      </iframe>
+      <br>
+      <br>
+      <h2>Coming soon...</h2>
+    </div>
+  </body>
+  <script>
+    function Menu(){
+      x = document.getElementById("navigation");
+      if (x.style.display === "none" || x.style.display === "") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
