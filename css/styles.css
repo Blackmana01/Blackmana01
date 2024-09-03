@@ -47,12 +47,13 @@ nav ul li a:hover {
   border: none;
   text-align: center;
   font-size: 40px;
+  background-color: snow;
   color: black; /* Match the text color of the body */
 }
 
 .container {
   text-align: center;
-  background-color: grey;
+  background-color: rgb(210, 238, 255);
   margin: auto;
 }
 
@@ -101,7 +102,7 @@ a {
 hr { width:75%; height:1px; background: white }
 
 .about {
-  background-color: grey;
+  background-color: rgb(210, 238, 255);
   color: black;
   max-width: 100%;
   margin: auto;
@@ -111,12 +112,12 @@ hr { width:75%; height:1px; background: white }
   max-width: 50%;
   width: fit-content;
   margin: auto;
-  background-color: #cccccc;
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
 }
 
 .box {
-  background-color: #cccccc;
+  background-color: rgba(255, 255, 255, 0.25);
   width: fit-content;
   border-radius: 5px;
   margin: auto;
@@ -131,7 +132,7 @@ hr { width:75%; height:1px; background: white }
 }
 
 .contacts {
-  background-color: grey;
+  background-color: rgb(210, 238, 255);
   color: black;
   max-width: 100%;
   height: 100%;
