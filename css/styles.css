@@ -46,6 +46,7 @@ nav ul li a:hover {
   display: none;
   border: none;
   text-align: center;
+  font-size: 40px;
   color: black; /* Match the text color of the body */
 }
 
