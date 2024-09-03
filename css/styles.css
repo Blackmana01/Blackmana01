@@ -112,14 +112,11 @@ hr { width:75%; height:1px; background: white }
   max-width: 50%;
   width: fit-content;
   margin: auto;
-  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 5px;
 }
 
 .box {
-  background-color: rgba(255, 255, 255, 0.25);
   width: fit-content;
-  border-radius: 5px;
   margin: auto;
 }
 
@@ -139,11 +136,15 @@ hr { width:75%; height:1px; background: white }
   margin: auto;
 }
 
-.links {
-  text-align: center;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: snow;
 }
 
-.links ul{
+.footer ul{
   list-style-type: none;
   justify-content: center;
   display: flex;
@@ -152,7 +153,7 @@ hr { width:75%; height:1px; background: white }
   overflow: hidden;
 }
 
-.links ul li {
+.footer ul li {
   margin: 0px 10px;
 }
 
@@ -176,7 +177,7 @@ hr { width:75%; height:1px; background: white }
     font-size: 30px;
   }
   .navButton {
-    display: inline-block;
+    display:flex;
   }
   #navigation {
     float: none;
