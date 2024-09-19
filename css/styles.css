@@ -111,7 +111,7 @@ hr { width:75%; height:1px; background: white }
 .bio {
   max-width: 40%;
   width: fit-content; 
-  text-align:justify;
+  text-align: justify;
   margin: auto;
   border-radius: 5px;
 }
